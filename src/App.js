@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import { useState } from 'react';
 import './App.css';
-import 'antd/dist/antd.css'
+import 'antd/dist/antd.min.css'
 import LunboSilder from './LunboSilder';
 import { Button } from 'antd';
 import Son from './Son';

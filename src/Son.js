@@ -4,7 +4,7 @@ const Son = (props)=>{
   const { habbits } = props;
   const [name,setName] = useState("张三");
   const [intresting,setIntresting] = useState(habbits.intresting);
-  const [sex,setSex]= useState(props.sex);
+  // const [sex,setSex]= useState(props.sex);
   console.log("props1111",habbits)
     console.log(props);
     useEffect(() => {
